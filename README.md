@@ -5,18 +5,10 @@ Project Overview:
 Sorting through a large movie dataset by box office revenue to determine how successful they were financially based off of the year they were released in or genre they belong to. We are looking to find the most efficient sorting method out of heap sort and merge sort when using a data set with one million rows.
 
 There are four files in the repository. 
-1. movies_dataset.csv:
-   
-  The csv of the Movies dataset that will be used as the data points for the project.
-3. Algorithm.h:
-
-  The header file for our implementations of the sorting functions and the filtering of the dataset. This contains the Algorithm class and the movie struct.
-4. Algorithm.cpp:
-
-  The source code for our implementations of the sorting functions and the filtering of the dataset.
-5. main.cpp:
-
-  The file that should be run. It allows users to interact with the terminal to choose how to filter and sort the data.
+1. movies_dataset.csv: The csv of the Movies dataset that will be used as the data points for the project.
+2. Algorithm.h: The header file for our implementations of the sorting functions and the filtering of the dataset. This contains the Algorithm class and the movie struct.
+3. Algorithm.cpp: The source code for our implementations of the sorting functions and the filtering of the dataset.
+4. main.cpp: The file that should be run. It allows users to interact with the terminal to choose how to filter and sort the data.
 
 Features:
 
