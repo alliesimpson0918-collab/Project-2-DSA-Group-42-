@@ -63,7 +63,7 @@ int main() {
         cout << "Choose a genre number to filter the data by:" << endl;
         cout << "1. Action" << endl << "2. Comedy" << endl << "3. Documentary" <<
             endl << "4. Drama"<< endl << "5. Horror" << endl << "6. Sci-Fi"
-            << endl << "7. Thriller" << endl;
+            << endl << "7. Thriller" << endl << "8. Romance" << endl;
 
         int inputGenre;
 
@@ -77,7 +77,7 @@ int main() {
         }
 
         // check the input is valid
-        if (inputGenre >= 1 && inputGenre <= 7) {
+        if (inputGenre >= 1 && inputGenre <= 8) {
 
             string genre;
 
@@ -95,6 +95,9 @@ int main() {
                 genre = "Sci-Fi";
             } else if (inputGenre == 7){
                 genre = "Thriller";
+            } else if (inputGenre == 8)
+            {
+                genre = "Romance";
             }
 
             moviesVector = algo.genreVector(genre, moviesVector);
