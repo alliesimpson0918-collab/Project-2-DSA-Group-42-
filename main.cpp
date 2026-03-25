@@ -95,8 +95,7 @@ int main() {
                 genre = "Sci-Fi";
             } else if (inputGenre == 7){
                 genre = "Thriller";
-            } else if (inputGenre == 8)
-            {
+            } else if (inputGenre == 8){
                 genre = "Romance";
             }
 
